@@ -1,7 +1,13 @@
 # example-subgraph
 
 Example Subgraph for Baobab ERC20 contract.
-The Subgraph tracks `n_transfers`, the number of transfers made by each address.
+
+- tracks `n_transfers`, the number of transfers made by each address
+
+This example uses the following contract details:
+
+- Address: [0x569A8e0e23e8f338752B568b721075574426f693](https://baobab.klaytnfinder.io/account/0x569A8e0e23e8f338752B568b721075574426f693)
+- Start Block: 150554742
 
 ## Prerequisites
 
@@ -9,7 +15,7 @@ The Subgraph tracks `n_transfers`, the number of transfers made by each address.
 - Running [Graph Node](https://github.com/graphprotocol/graph-node)
 - Running [IPFS Node](https://github.com/ipfs/kubo)
 
-## Simple Start
+## Run this example
 
 1. Install dependencies
 
