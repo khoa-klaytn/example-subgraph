@@ -11,7 +11,6 @@
     "build-wast": "graph build -t wast subgraph.yaml",
     "codegen": "graph codegen --output-dir src/types/ subgraph.yaml",
     "create": "graph create --node $GRAPH_ADMIN_URL example-subgraph",
-    "echo": "echo $GRAPH_ADMIN_URL && echo $IPFS_ADMIN_URL",
     "deploy": "graph deploy --node $GRAPH_ADMIN_URL --ipfs $IPFS_ADMIN_URL example-subgraph subgraph.yaml"
   },
   "devDependencies": {

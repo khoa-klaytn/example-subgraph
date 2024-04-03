@@ -17,8 +17,7 @@ dataSources:
       language: wasm/assemblyscript
       file: ./src/mapping.ts
       entities:
-        - ExampleEntity
-        - OtherEntity
+        - User
       abis:
         - name: MyToken
           file: ./abis/MyToken.json
